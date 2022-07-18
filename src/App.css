@@ -32,7 +32,33 @@
   color:#fff;
   text-align: left;
 }
-/*----Nav----*/
+.content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+  width: 46vh;
+}
+/*----Beers----*/
+.beerImg{
+  height: 15vh;
+}
+.beerCardImg{
+  width: 46vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+margin-left: 50px;
+}
+.details{
+width: 25vh;
+text-align: left;
+margin-right: 50px;
+gap: 5px;
+color: #fff;
+}
 
 
 
