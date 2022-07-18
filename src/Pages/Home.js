@@ -6,7 +6,7 @@ import newBeer from "../assets//new-beer.png"
 const Home = () => {
     return (
         <div>
-        <h1>IronBeers</h1>
+        <h1 className='ironbeers'>IronBeers</h1>
         <section className='sectionHome'>
         <Link to="/beers" style={{ textDecoration: 'none' }}>
         <img src={beers}alt="beers" className='homeImg'></img>
