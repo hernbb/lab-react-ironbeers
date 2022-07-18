@@ -1,19 +1,19 @@
 *{
-  background-color: #282c34;
+  background-color: #fff;
 }
 .App {
   text-align: center;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:#282c34;
 }
 /*-----Home-----*/
 .homeImg {
@@ -21,7 +21,7 @@
 }
 .textHome {
   text-decoration: none;
-  color:white;
+  color:#282c34;
   text-align: justify;
   padding-left: 15px;
   padding-right: 15px;
@@ -29,7 +29,7 @@
 }
 .title {
   margin: 1px 15px;
-  color:#fff;
+  color:#282c34;
   text-align: left;
 }
 .content{
@@ -57,7 +57,57 @@ width: 25vh;
 text-align: left;
 margin-right: 50px;
 gap: 5px;
-color: #fff;
+color: #282c34;
+}
+.details p {
+  font-size: small;
+}
+/*----form----*/
+.inputs-general{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+.input-box{
+  border-radius: 2vh;
+  width: 25vh;
+  height: 2.8vh;
+}
+textarea{
+  border-radius: 2vh;
+  border-style: groove;
+  width: 25vh;
+  height: 5vh;
+}
+div label{
+  font-weight: bold;
+}
+
+div input{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+div textarea{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.buttonForm {
+  background-color: #3cc4fc;
+  width: 15vh;
+  border-radius: 2vh;
+  height: 5vh;
+  font-weight: bold;
+
+}
+.buttonForm :hover{
+ 
 }
 
 

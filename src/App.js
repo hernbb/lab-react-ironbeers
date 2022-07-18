@@ -13,6 +13,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/beers' element={<Beers/>}/>
+        <Route path='/beers/:id' element={<SingleBeer/>}/>
+        <Route path='/random-beer' element={<RandomBeer/>}/>
+        <Route path='/new-beer' element={<NewBeer/>}/>
       </Routes>
       </header>
     </div>
